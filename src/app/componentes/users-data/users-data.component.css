@@ -1,0 +1,62 @@
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    flex: 1 1 400px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 7px 1px #b6b6b6;
+    padding: 20px;
+    margin: 10px;
+}
+.Titulo {
+    display: block;
+    padding: 10px 20px;
+    font-family: 'Smooch', cursive;
+    font-size: 50px;
+}
+.Subtitulo {
+    color:blueviolet;
+    font-family: 'Smooch', cursive;
+    font-size: 20px;
+
+}
+.Apellido{
+    display: block;
+    padding: 10px 20px;
+    font-family: 'Smooch', cursive;
+    font-size: 40px;
+}
+.FormContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: center;
+    width: 400px;
+    margin-bottom: 30px;   
+}
+.formcontrol{
+    margin: 8px 0px;
+    height: 30px;
+    font-family: 'Smooch', cursive;
+    border-radius: 15px;
+    border: 1px solid rgb(197, 197, 197);
+    font-size: 15px;
+}
+.boton{
+    margin: 8px 0px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 22px;
+    font-family:'Smooch', cursive;
+    border: 1px solid rgb(197, 197, 197);
+    color: white;
+    background: linear-gradient(45deg, rgb(248, 124, 196) 0%, rgb(172, 56, 250) 100%);
+    cursor: pointer;
+}
+.boton:hover {
+    background: linear-gradient(45deg, rgb(131, 222, 245) 0%, rgb(39, 151, 243) 100%);
+}

@@ -1,0 +1,36 @@
+<div class="FormContainer" >
+    <input type="text" class="formcontrol" placeholder="Nombre" [(ngModel)]="nombre">
+    <input type="text" class="formcontrol" placeholder="Apellido">
+    <input type="text" class="formcontrol" placeholder="Ip">
+    <button class="boton"> Agregar </button>
+    <h1>{{nombre}}</h1>
+</div>
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Smooch&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Smooch&display=swap" rel="stylesheet">
+<div class="contenedor">
+    <div class="tarjeta" *ngFor="let user of users">
+        <span class="Titulo"> 
+            Nombre:
+        {{
+            user.firstname
+        }}
+        </span> <br>
+        <span class="Apellido">
+            Apellido:
+            {{user.lastname}}
+        </span> <br>
+        <span class="Subtitulo"> 
+            {{user.ip}}
+        </span>
+        
+    </div>
+</div>
+
+
